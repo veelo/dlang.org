@@ -827,7 +827,7 @@ $(GNAME MulExpression):
     )
 
     $(P For integral operands, the $(D *), $(D /), and $(D %)
-        correspond to multiply, divide, and modulus operations.
+        correspond to multiply, divide, and modulo operations.
         For multiply, overflows are ignored and simply chopped to fit
         into the integral type.
     )
@@ -837,7 +837,7 @@ $(GNAME MulExpression):
         same sign as the dividend.
     )
 
-    $(P The following divide or modulus integral operands:)
+    $(P The following divide or modulo integral operands:)
 
     $(UL
     $(LI denominator is 0)
